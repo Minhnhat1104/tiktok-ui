@@ -1,0 +1,4 @@
+di chuyen file Layout ra ngoai #done
+sua config dua vao file index de import #done
+doi ten request thanh httpRequest #done
+Tao file env(environment) lỗi không file .env không nhận
