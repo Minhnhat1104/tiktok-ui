@@ -26,6 +26,8 @@ import config from '~/config';
 const cx = classNames.bind(styles);
 
 function Header() {
+    const currentUser = true;
+
     const handleMenuChange = (menuItem) => {
         switch (menuItem.type) {
             case 'language':
@@ -65,8 +67,6 @@ function Header() {
             title: 'Keyboard shortcuts',
         },
     ];
-
-    const currentUser = true;
 
     const userMenu = [
         {
